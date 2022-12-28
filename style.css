@@ -1,0 +1,26 @@
+#result{
+ border-style: solid;
+ border-color: black;
+ border-width: 2px;
+ display: inline-block;
+}
+
+div {
+  margin-bottom: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+
+div > label {
+  width: 23%;
+}
+
+div > input {
+  width: 70%;
+}
+
+@media screen and (min-width: 992px) {
+  div {
+    width: 40%;
+  }
+}
